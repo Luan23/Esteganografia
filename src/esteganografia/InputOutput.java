@@ -26,7 +26,6 @@ public class InputOutput {
 		}catch(Exception e){
 			throw new Exception("Erro ao ler o arquivo");
 		}
-		System.out.println(texto);
 		return texto;
 	}
 	
